@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic-Tac-Toe</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Tic-Tac-Toe</h1>
+        <div class="player-names">
+            <input type="text" id="player1" placeholder="Player 1 Name" class="neon-input">
+            <input type="text" id="player2" placeholder="Player 2 Name" class="neon-input">
+            <button id="startGame" class="neon-button">Start Game</button>
+        </div>
+        <div class="board">
+            <!-- The game board will be generated here with JavaScript -->
+        </div>
+        <div class="message" id="message"></div>
+        <button id="newGame" class="neon-button" style="display: none">New Game</button>
+        <audio id="background-audio" style="display: none" autoplay loop>
+            <source src="bg-music.mp3" type="audio/mpeg">
+            Your browser does not support the audio element.
+        </audio>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
